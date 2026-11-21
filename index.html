@@ -15,9 +15,22 @@ name="author"content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
 
     <!-- Bootstrap core CSS  -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
     <script src="../assets/js/color-modes.js"></script>
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
     <meta name="theme-color" content="#712cf9" />
     <link href="cover.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
@@ -26,22 +39,72 @@ name="author"content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
     </style>
      <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
+
+
+
   </head>
-  <body class="bg-dark text-white">
-     <header class="px-5 p-3text-white">
-        <div>
-          <h3 class="float-md-start mb-0">Portfolio</h3>
-          <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#"> Home</a>
-            <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
-            <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
-          </nav>
+  <body class="text-white"></body>
+     <div class="overlay"></div>
+     <header class="px-5 p-3 text-white">
+    <div class="d-flex justify-content-between align-items-center">
+        <h3 class="mb-0">Portfolio</h3>
+
+        <nav class="nav nav-masthead">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Contact</a>
+        </nav>
+    </div>
+</header>
+
+  
+<div class="banner-wrap vh-100 w-100 text-white">
+
+    <main class="d-flex flex-column align-items-center justify-content-center text-center h-100">
+
+        <h1 class="display-1">I am Lorraine Malete</h1>
+
+        <p class="lead">Fullstack Developer, Project Manager. Entrepreneur</p>
+
+    </main>
+
+</div>
+
+    <section>
+         <div class="container p-5">
+            <div class="card bg-dark text-white">
+             <div class="card-body">
+              <div class="row p-3">
+                  <div class="col-md-6">
+                      <div class="row">
+                          <div class="col-md-5">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQFo7qTzbOR8lg/profile-displayphoto-scale_200_200/B4DaGsYHxHKEAc-/0/1793893367582?e=1796860800&v=beta&t=C3Z4LKbhxK7RGonxZBPplEKpirHAB0XnWyq_qB6OdH0" alt="Lorraine Malete" class="img-fluid">
+                          </div>
+                          <div class="col-md-3">
+                              <p><strong>Lorraine Malete</strong></p>
+                              <p><strong>Profile:</strong> Project Manager, Fullstack Developer</p>
+                              <p><strong>Email:</strong> mpolokenglorra@gmail.com</p>
+                              <p><strong>Phone:</strong> +27 694488489</p>
+                              <p><strong>Skills:</strong> </p>
+                              <span class="badge rounded-pill bg-dark">HTML</span>
+                              <span class="badge rounded-pill bg-dark">CSS</span>
+                              <span class="badge rounded-pill bg-dark">git</span>
+                              <span class="badge rounded-pill bg-dark">javascript</span>
+                              <span class="badge rounded-pill bg-dark">firebase</span>
+                              <span class="badge rounded-pill bg-dark">OOP</span>
+                              <span class="badge rounded-pill bg-dark">ReactJS</span>
+                              <span class="badge rounded-pill bg-dark">Redux</span>
+                              <span class="badge rounded-pill bg-dark">NodeJS</span>
+                              <span class="badge rounded-pill bg-dark">MongoDB</span>
+                              <span class="badge rounded-pill bg-dark">Express</span>
+             </div>
+         </div>
         </div>
-      </header>
-     <div class="banner-wrap vh-100 vw-100 text-white">
-  <main class="d-flex flex-column align-items-center justify-content-center h-75 text-center">
-    <h1 class="display-1">I am Lorraine Malete</h1>
-    <p class="lead">Fullstack Developer, Project Manager. Enterpreneur</p>
-  </main> 
-   
+        <div class="col-md-3">
+        <h1 class="text-center text-md-start "><mark>About me</mark></h1>
+        <p> I'm Lorraine, a full-stack web developer, project coordinator, entrepreneur and YES Top 35 Under 35 alumni. I'm passionate about technology, AI and building digital solutions that solve real-world problems. I enjoy turning ideas into practical products and continuously expanding my skills.</p>
+       </div>
+    </section>
+
+</body>
 </html>
